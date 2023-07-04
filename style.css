@@ -19,7 +19,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
   font-style: normal;
   font-display: swap;
 }
-
 header {
   height: 50px;
 }
@@ -58,44 +57,35 @@ main {
   font-size: 16px;
   font-weight: 700;
 }
-
 .sort .range {
   text-align: center;
   max-width: 500px;
   padding-top: 35px;
   margin: 20px 50px 20px 30px;
 }
-
 .sort .radio {
   max-width: 500px;
   margin: 20px 30px 20px 50px;
 }
-
 .sort .radio .form-check-input {
   background-color: #a00202;
   border-color: #a00202;
   margin: 5px 0;
 }
-
-.sort .radio .form-check-input:focus,
-.sort .radio .form-check-input:active {
+.sort .radio .form-check-input:focus, .sort .radio .form-check-input:active {
   box-shadow: none;
 }
-
-.sort .radio .form-check-input:hover+.form-check-label {
+.sort .radio .form-check-input:hover + .form-check-label {
   color: #ffd700;
   text-decoration: underline;
 }
-
-.sort .radio .form-check-input:checked+.form-check-label {
+.sort .radio .form-check-input:checked + .form-check-label {
   color: #f68e8e;
   text-shadow: 0px 0px 3px #fe0000;
 }
-
 .sort .radio .form-check-label {
   padding-left: 10px;
 }
-
 .sort .radio input,
 .sort .radio label {
   cursor: pointer;
@@ -110,7 +100,6 @@ main {
   max-width: 1200px;
   margin: 50px auto;
 }
-
 .item .countries {
   color: #000;
   font-weight: 700;
@@ -123,17 +112,14 @@ main {
   flex-direction: column;
   align-items: stretch;
 }
-
 .item .countries .country-flag {
   border: 2px solid rgba(0, 0, 0, 0.4745098039);
 }
-
 .item .countries .country-flag img {
   width: 180px;
   height: 100px;
   vertical-align: middle;
 }
-
 .item .countries .country-name {
   padding-top: 15px;
 }
@@ -143,51 +129,41 @@ main {
     justify-content: center;
   }
 }
-
 @media screen and (max-width: 575px) {
   header {
     height: 5px;
   }
-
   .sort {
     font-size: 14px;
     font-weight: 500;
   }
-
   .sort .range {
     padding-top: 15px;
     margin: 10px 20px;
   }
-
   .sort .radio {
     margin: 10px 20px;
   }
-
   .sort .radio .form-check-label {
     padding-left: 5px;
   }
-
   .item {
     font-size: 10px;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(80px, max-content));
     margin: 10px auto;
   }
-
   .item .countries {
     width: 80px;
     height: 100px;
     padding: 5px;
   }
-
   .item .countries .country-flag img {
     width: 70px;
     height: 30px;
   }
-
   .item .countries .country-name {
     padding-top: 5px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
