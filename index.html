@@ -6,6 +6,7 @@
     <meta name="theme-color" content="#188de7">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="icon" href="assets/img/myfav.png">
     <title>Фільтр</title>
@@ -20,8 +21,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="range">
-                        <label for="strength" class="form-label">Кількість людей (від 1 до 1440 мільйонів)</label>
+                        <label for="strength" class="form-label">Кількість населеня країни</label>
                         <input type="range" class="form-range vertical-range" id="strength" min="0" max="440" value="440">
+                        <div class="strength-box">
+                            <span class="strength-min">min 0</span>
+                            <span id="strength-value">440</span>
+                            <span class="strength-max">max 440</span>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -61,6 +67,9 @@
     <footer>
 
     </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <script src="assets/js/fancybox.min.js"></script>
     <script src="assets/js/custom.js"></script>
 </body>
 

@@ -63,6 +63,24 @@ main {
   padding-top: 35px;
   margin: 20px 50px 20px 30px;
 }
+.sort .range .strength-box {
+  margin-top: -15px;
+  display: flex;
+  justify-content: space-between;
+}
+.sort .range .strength-box .strength-min {
+  color: #04ff04;
+}
+.sort .range .strength-box .strength-max {
+  color: rgba(254, 136, 115, 0.9725490196);
+}
+.sort .range .strength-box #strength-value {
+  margin-top: 5px;
+  padding: 0 5px;
+  width: 50px;
+  color: #000;
+  background-color: rgba(155, 154, 154, 0.6509803922);
+}
 .sort .radio {
   max-width: 500px;
   margin: 20px 30px 20px 50px;
@@ -124,6 +142,14 @@ main {
   padding-top: 15px;
 }
 
+.fancybox-image {
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 1920px;
+}
+
 @media screen and (max-width: 1199px) {
   .item {
     justify-content: center;
@@ -150,11 +176,11 @@ main {
   .item {
     font-size: 10px;
     gap: 20px;
-    grid-template-columns: repeat(auto-fit, minmax(80px, max-content));
+    grid-template-columns: repeat(auto-fit, minmax(75px, max-content));
     margin: 10px auto;
   }
   .item .countries {
-    width: 80px;
+    width: 70px;
     height: 100px;
     padding: 5px;
   }

@@ -479,12 +479,333 @@ const countryInfo = [
     strength: 20,
     mainland: "africa",
   },
+  {
+    id: 61,
+    flag: "assets/img/Romania.png",
+    name: "Румунія",
+    bill: "",
+    strength: 19,
+    mainland: "eurasia",
+  },
+  {
+    id: 62,
+    flag: "assets/img/Malawi.png",
+    name: "Малаві",
+    bill: "",
+    strength: 19,
+    mainland: "africa",
+  },
+  {
+    id: 63,
+    flag: "assets/img/Chile.png",
+    name: "Чилі",
+    bill: "",
+    strength: 19,
+    mainland: "south_america",
+  },
+  {
+    id: 64,
+    flag: "assets/img/Kazakhstan.png",
+    name: "Казахстан",
+    bill: "",
+    strength: 18,
+    mainland: "eurasia",
+  },
+  {
+    id: 65,
+    flag: "assets/img/Zambia.png",
+    name: "Замбія",
+    bill: "",
+    strength: 18,
+    mainland: "africa",
+  },
+  {
+    id: 66,
+    flag: "assets/img/Guatemala.png",
+    name: "Гватемала",
+    bill: "",
+    strength: 17,
+    mainland: "south_america",
+  },
+  {
+    id: 67,
+    flag: "assets/img/Ecuador.png",
+    name: "Еквадор",
+    bill: "",
+    strength: 17,
+    mainland: "south_america",
+  },
+  {
+    id: 68,
+    flag: "assets/img/Siria.png",
+    name: "Сирія",
+    bill: "",
+    strength: 17,
+    mainland: "eurasia",
+  },
+  {
+    id: 69,
+    flag: "assets/img/Netherlands.png",
+    name: "Нідерланди",
+    bill: "",
+    strength: 17,
+    mainland: "eurasia",
+  },
+  {
+    id: 70,
+    flag: "assets/img/Senegal.png",
+    name: "Сенегал",
+    bill: "",
+    strength: 16,
+    mainland: "africa",
+  },
+  {
+    id: 71,
+    flag: "assets/img/Cambodia.png",
+    name: "Камбоджа",
+    bill: "",
+    strength: 16,
+    mainland: "eurasia",
+  },
+  {
+    id: 72,
+    flag: "assets/img/Chad.png",
+    name: "Чад",
+    bill: "",
+    strength: 16,
+    mainland: "africa",
+  },
+  {
+    id: 73,
+    flag: "assets/img/Somalia.png",
+    name: "Сомалі",
+    bill: "",
+    strength: 15,
+    mainland: "africa",
+  },
+  {
+    id: 74,
+    flag: "assets/img/Zimbabwe.png",
+    name: "Зімбабве",
+    bill: "",
+    strength: 14,
+    mainland: "africa",
+  },
+  {
+    id: 75,
+    flag: "assets/img/Guinea.png",
+    name: "Гвінея",
+    bill: "",
+    strength: 13,
+    mainland: "africa",
+  },
+  {
+    id: 76,
+    flag: "assets/img/Rwanda.png",
+    name: "Руанда",
+    bill: "",
+    strength: 12,
+    mainland: "africa",
+  },
+  {
+    id: 77,
+    flag: "assets/img/Benin.png",
+    name: "Бенін",
+    bill: "",
+    strength: 12,
+    mainland: "africa",
+  },
+  {
+    id: 78,
+    flag: "assets/img/Burundi.png",
+    name: "Бурунді",
+    bill: "",
+    strength: 11,
+    mainland: "africa",
+  },
+  {
+    id: 79,
+    flag: "assets/img/Tunisia.png",
+    name: "Туніс",
+    bill: "",
+    strength: 11,
+    mainland: "africa",
+  },
+  {
+    id: 80,
+    flag: "assets/img/Bolivia.png",
+    name: "Болівія",
+    bill: "",
+    strength: 11,
+    mainland: "africa",
+  },
+  {
+    id: 81,
+    flag: "assets/img/Belgium.png",
+    name: "Бельгія",
+    bill: "",
+    strength: 11,
+    mainland: "eurasia",
+  },
+  {
+    id: 82,
+    flag: "assets/img/Haiti.png",
+    name: "Гаїті",
+    bill: "",
+    strength: 11,
+    mainland: "north_america",
+  },
+  {
+    id: 83,
+    flag: "assets/img/Cuba.png",
+    name: "Куба",
+    bill: "",
+    strength: 11,
+    mainland: "north_america",
+  },
+  {
+    id: 84,
+    flag: "assets/img/South_Sudan.png",
+    name: "Південний Судан",
+    bill: "",
+    strength: 11,
+    mainland: "africa",
+  },
+  {
+    id: 85,
+    flag: "assets/img/Dominican_Republic.png",
+    name: "Домініканська Республіка",
+    bill: "",
+    strength: 10,
+    mainland: "north_america",
+  },
+  {
+    id: 86,
+    flag: "assets/img/Czech_Republic.png",
+    name: "Чехія",
+    bill: "",
+    strength: 10,
+    mainland: "eurasia",
+  },
+  {
+    id: 87,
+    flag: "assets/img/Greece.png",
+    name: "Греція",
+    bill: "",
+    strength: 10,
+    mainland: "eurasia",
+  },
+  {
+    id: 88,
+    flag: "assets/img/Jordan.png",
+    name: "Йорданія",
+    bill: "",
+    strength: 10,
+    mainland: "eurasia",
+  },
+  {
+    id: 89,
+    flag: "assets/img/Portugal.png",
+    name: "Португалія",
+    bill: "",
+    strength: 10,
+    mainland: "eurasia",
+  },
+  {
+    id: 90,
+    flag: "assets/img/Azerbaijan.png",
+    name: "Азербайджан",
+    bill: "",
+    strength: 10,
+    mainland: "eurasia",
+  },
+  {
+    id: 91,
+    flag: "assets/img/Sweden.png",
+    name: "Швеція",
+    bill: "",
+    strength: 10,
+    mainland: "eurasia",
+  },
+  {
+    id: 92,
+    flag: "assets/img/Honduras.png",
+    name: "Гондурас",
+    bill: "",
+    strength: 9,
+    mainland: "north_america",
+  },
+  {
+    id: 93,
+    flag: "assets/img/United_Arab_Emirates.png",
+    name: "ОАЕ",
+    bill: "",
+    strength: 9,
+    mainland: "eurasia",
+  },
+  {
+    id: 94,
+    flag: "assets/img/Hungary.png",
+    name: "Угорщина",
+    bill: "",
+    strength: 9,
+    mainland: "eurasia",
+  },
+  {
+    id: 95,
+    flag: "assets/img/Tajikistan.png",
+    name: "Таджикистан",
+    bill: "",
+    strength: 9,
+    mainland: "eurasia",
+  },
+  {
+    id: 96,
+    flag: "assets/img/Belarus.png",
+    name: "Білорусь",
+    bill: "",
+    strength: 9,
+    mainland: "eurasia",
+  },
+  {
+    id: 97,
+    flag: "assets/img/Austria.png",
+    name: "Австрія",
+    bill: "",
+    strength: 9,
+    mainland: "eurasia",
+  },
+  {
+    id: 98,
+    flag: "assets/img/Papua_New_Guinea.png",
+    name: "Папуа Нова Гвінея",
+    bill: "",
+    strength: 8,
+    mainland: "australia",
+  },
+  {
+    id: 99,
+    flag: "assets/img/Serbia.png",
+    name: "Сербія",
+    bill: "",
+    strength: 8,
+    mainland: "eurasia",
+  },
+  {
+    id: 100,
+    flag: "assets/img/Israel.png",
+    name: "Ізраїль",
+    bill: "",
+    strength: 8,
+    mainland: "eurasia",
+  },
 ];
 
 window.addEventListener("load", function () {
   const countryItem = document.querySelector(".item");
   const mainlandRadio = document.querySelectorAll('[type="radio"]');
   const strengthRange = document.querySelector("#strength");
+  const strengthValue = document.querySelector("#strength-value");
 
   const renderCountries = (countries) => {
     const list = countries
@@ -511,7 +832,10 @@ window.addEventListener("load", function () {
         }
         return `
           <div class="countries">
-            <div class="country-flag"><img src="${country.flag}" class="img-fluid" alt="${country.name}"></div>
+            <div class="country-flag">
+            <a href="${country.flag}" data-fancybox="gallery" data-caption="${country.name}">
+            <img src="${country.flag}" class="img-fluid" alt="${country.name}">
+            </a></div>
             <div class="country-name">${country.name}</div>
             <div class="country-strength">${country.bill}${country.strength} міл.</div>
             <div class="country-mainland">${mainlandName}</div>
@@ -524,7 +848,7 @@ window.addEventListener("load", function () {
 
   const config = {
     mainland: "all",
-    strength: 1439,
+    strength: 440,
   };
 
   function applyFilters() {
@@ -557,10 +881,20 @@ window.addEventListener("load", function () {
     strengthRange.addEventListener("input", (event) => {
       let val = parseInt(event.target.value);
       config.strength = val;
+      strengthValue.innerHTML = val;
       applyFilters();
     });
   }
   getStrengthVal();
 
   applyFilters();
+});
+$(document).ready(function () {
+  Fancybox.bind("[data-fancybox]", {
+    loop: true,
+    buttons: ["zoom", "slideShow", "fullScreen", "close"],
+    animationEffect: "fade",
+    transitionEffect: "slide",
+    animationDuration: 600,
+  });
 });
